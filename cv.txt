@@ -1,0 +1,26 @@
+Nwagha Divine — Frontend Developer
+
+Contact
+Email: p3355240@gmail.com
+Location: (Volta Region Of Ghana)
+
+Summary
+Front-end developer focused on building accessible, responsive web applications. Experienced with HTML, CSS, JavaScript, React and TypeScript.
+
+Experience
+- Frontend Developer — Example Co. (Dates)
+  • Built responsive UI components and improved performance
+- Freelance Web Developer (Dates)
+  • Delivered accessible websites for small businesses
+
+Skills
+HTML, CSS, JavaScript, React, TypeScript, Accessibility, Responsive Design
+
+Education
+Secondary school
+
+Portfolio
+project.html
+
+References
+Available on request

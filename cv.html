@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nwagha Divine — CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+  <div class="cv-container">
+    <header class="cv-header">
+      <div>
+        <h1 class="name">Nwagha Divine</h1>
+        <p class="role">Frontend Developer — UX-focused, performance-minded</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="index.html">Back to site</a>
+        <a class="btn secondary" href="cv.html" download="Nwagha-Divine-CV.html">Download</a>
+        <button class="btn print" onclick="window.print()">Print / Save as PDF</button>
+      </div>
+    </header>
+
+    <main class="cv-main">
+      <aside class="sidebar">
+        <section class="contact card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:p3355240@gmail.com">p3355240@gmail.com</a></p>
+          <p>Location: Volta Region, Ghana</p>
+          <p>Place of origin: Volta Region, Ghana</p>
+        </section>
+
+        <section class="skills card">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML &amp; Semantic Markup</li>
+            <li>CSS, Responsive Layouts</li>
+            <li>JavaScript, ES6+</li>
+            <li>React &amp; TypeScript</li>
+            <li>Accessibility &amp; Performance</li>
+          </ul>
+        </section>
+
+        <section class="tools card">
+          <h3>Tools</h3>
+          <p>Git, Figma, Vercel, Webpack, Jest</p>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="summary card">
+          <h2>Profile</h2>
+          <p>Product-minded frontend developer who turns designs into accessible, responsive, and performant interfaces. Passionate about clean code and delightful user experiences.</p>
+        </section>
+
+        <section class="experience card">
+          <h2>Experience</h2>
+          <div class="job">
+            <h3>Frontend Developer — Example Co.</h3>
+            <p class="meta">Dates · Location</p>
+            <ul>
+              <li>Built responsive UI components and improved page performance.</li>
+              <li>Led accessibility initiatives and implemented semantic markup.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3>Freelance Web Developer</h3>
+            <p class="meta">Dates</p>
+            <ul>
+              <li>Delivered accessible websites for small businesses and startups.</li>
+              <li>Worked closely with designers to implement pixel-accurate features.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="education card">
+          <h2>Education</h2>
+          <p>Secondary school</p>
+        </section>
+
+        <section class="projects card">
+          <h2>Selected Projects</h2>
+          <ul>
+            <li><a href="project.html">Project — brief one-line summary</a></li>
+          </ul>
+        </section>
+
+      </section>
+    </main>
+
+    <footer class="cv-footer">
+      <p>© <span id="year">2026</span> Nwagha Divine — Built with care.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

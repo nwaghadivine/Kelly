@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nwagha Divine — CV (Analytics)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+  <div class="cv-container">
+    <header class="cv-header">
+      <div>
+        <h1 class="name">Nwagha Divine</h1>
+        <p class="role">Frontend Developer — Dashboards & Data Viz</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="index.html">Back to site</a>
+        <a class="btn secondary" href="cv-analytics.html" download="Nwagha-Divine-CV-analytics.html">Download</a>
+        <button class="btn print" onclick="window.print()">Print / Save as PDF</button>
+      </div>
+    </header>
+
+    <main class="cv-main">
+      <aside class="sidebar">
+        <section class="contact card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:p3355240@gmail.com">p3355240@gmail.com</a></p>
+          <p>Location: Volta Region, Ghana</p>
+          <p>Place of origin: Volta Region, Ghana</p>
+        </section>
+
+        <section class="skills card">
+          <h3>Skills</h3>
+          <ul>
+            <li>JavaScript, ES6+</li>
+            <li>Data visualization (D3 / Charting)</li>
+            <li>Performance &amp; Accessibility</li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="summary card">
+          <h2>Profile</h2>
+          <p>Frontend developer specializing in analytics dashboards and real-time interfaces. I focus on performant data loading and clear visualizations.</p>
+        </section>
+
+        <section class="experience card">
+          <h2>Experience</h2>
+          <div class="job">
+            <h3>Frontend Engineer — Data Co.</h3>
+            <p class="meta">Dates · Location</p>
+            <ul>
+              <li>Built real-time dashboards with incremental loading and virtualization.</li>
+              <li>Implemented chart components and efficient data transformations.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="education card">
+          <h2>Education</h2>
+          <p>Secondary school</p>
+        </section>
+
+        <section class="projects card">
+          <h2>Featured Project — Analytics Dashboard</h2>
+          <img src="https://picsum.photos/seed/analytics/900/500" alt="Analytics project screenshot" style="width:100%;height:auto;border-radius:6px;margin-bottom:1rem">
+          <p>Design and development of a metrics dashboard that surfaces real-time KPIs, supports filtering, and uses charting for quick insights. Focused on minimizing reflows and efficient chart updates.</p>
+          <p><a href="project-analytics.html">Read the case study</a></p>
+        </section>
+
+      </section>
+    </main>
+
+    <footer class="cv-footer">
+      <p>© <span id="year">2026</span> Nwagha Divine — Built with care.</p>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

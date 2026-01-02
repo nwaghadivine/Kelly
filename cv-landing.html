@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nwagha Divine — CV (Landing)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+  <div class="cv-container">
+    <header class="cv-header">
+      <div>
+        <h1 class="name">Nwagha Divine</h1>
+        <p class="role">Frontend Developer — Landing Pages & Growth</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="index.html">Back to site</a>
+        <a class="btn secondary" href="cv-landing.html" download="Nwagha-Divine-CV-landing.html">Download</a>
+        <button class="btn print" onclick="window.print()">Print / Save as PDF</button>
+      </div>
+    </header>
+
+    <main class="cv-main">
+      <aside class="sidebar">
+        <section class="contact card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:p3355240@gmail.com">p3355240@gmail.com</a></p>
+          <p>Location: Volta Region, Ghana</p>
+          <p>Place of origin: Volta Region, Ghana</p>
+        </section>
+
+        <section class="skills card">
+          <h3>Skills</h3>
+          <ul>
+            <li>Conversion-focused UI</li>
+            <li>Responsive design &amp; accessible interactions</li>
+            <li>Performance tuning</li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="summary card">
+          <h2>Profile</h2>
+          <p>I design and implement landing experiences that prioritize conversion, speed, and accessibility. I collaborate closely with product and marketing teams.</p>
+        </section>
+
+        <section class="experience card">
+          <h2>Experience</h2>
+          <div class="job">
+            <h3>Frontend Developer — Marketing Co.</h3>
+            <p class="meta">Dates · Location</p>
+            <ul>
+              <li>Built high-converting landing pages with A/B friendly structure.</li>
+              <li>Optimized critical path CSS and minimized payloads.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="education card">
+          <h2>Education</h2>
+          <p>Secondary school</p>
+        </section>
+
+        <section class="projects card">
+          <h2>Featured Project — Landing & Growth</h2>
+          <img src="https://picsum.photos/seed/marketing/900/500" alt="Landing project screenshot" style="width:100%;height:auto;border-radius:6px;margin-bottom:1rem">
+          <p>Landing page focused on conversion lift with progressive loading, clear CTAs, and analytics instrumentation to support growth experiments.</p>
+          <p><a href="project-landing.html">Read the case study</a></p>
+        </section>
+
+      </section>
+    </main>
+
+    <footer class="cv-footer">
+      <p>© <span id="year">2026</span> Nwagha Divine — Built with care.</p>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

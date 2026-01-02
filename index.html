@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Nwagha Divine</title>
+    <meta name="description" content="Nwagha Divine — Frontend developer building accessible, performance-focused web interfaces.">
+    <meta property="og:title" content="Nwagha Divine — Frontend Developer">
+    <meta property="og:description" content="Building accessible, responsive web apps with clean, maintainable code.">
+    <meta property="og:image" content="Snapchat-608967995.jpg">
+    <meta name="theme-color" content="#4f46e5">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Snapchat-608967995.jpg" type="image/jpeg">
+</head>
+<body>
+    <header>
+        <a class="brand" href="index.html">
+            <img src="Snapchat-608967995.jpg" alt="Nwagha Divine" class="logo-img">
+            <div>
+                <div style="font-weight:700">Nwagha Divine</div>
+                <div style="font-size:.85rem;color:var(--muted)">Frontend Developer</div>
+            </div>
+        </a>
+        <nav>
+            <a href="project.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="cta" href="contact.html">Hire me</a>
+        </nav>
+        <button class="hamburger" aria-label="menu" id="menuBtn">☰</button>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div>
+                <h1>Hi, I’m <span style="color:var(--accent)">Nwagha Divine</span> — I build beautiful, usable interfaces.</h1>
+                <p>Product-minded frontend developer focused on accessible, responsive web apps. I turn designs into performant, maintainable experiences.</p>
+                <div class="actions">
+                    <a class="cta" href="project.html">View Projects</a>
+                    <a class="btn-ghost" href="about.html">Read About</a>
+                    <a href="contact.html" class="btn-outline">Contact</a>
+                </div>
+                <div style="margin-top:1rem;display:flex;gap:.5rem;flex-wrap:wrap">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">React</span>
+                    <span class="skill">TypeScript</span>
+                </div>
+            </div>
+            <aside class="card">
+                <div class="profile-name">Nwagha Divine</div>
+                <div class="profile-role">Frontend Developer — UX-focused, performance-minded</div>
+                <div class="profile-badges">
+                    <div class="badge">React</div>
+                    <div class="badge">TypeScript</div>
+                    <div class="badge">Accessibility</div>
+                </div>
+                <div class="profile-actions">
+                    <a href="contact.html" class="cta">Hire me</a>
+                    <a href="cv.pdf" download="Nwagha-Divine-CV.pdf" class="btn-outline">Download CV</a>
+                </div>
+            </aside>
+        </section>
+
+        <section id="links" style="margin-top:2rem">
+            <h2 style="margin:0 0 .75rem 0">Explore</h2>
+            <div class="projects">
+                <article class="project card">
+                    <div style="font-weight:700">Projects</div>
+                    <div style="color:var(--muted);font-size:.95rem">See selected projects and case studies.</div>
+                    <a class="small-cta" href="project.html" style="margin-top:.5rem;display:inline-block">Open Projects →</a>
+                </article>
+                <article class="project card">
+                    <div style="font-weight:700">About</div>
+                    <div style="color:var(--muted);font-size:.95rem">Learn more about my background and skills.</div>
+                    <a class="small-cta" href="about.html" style="margin-top:.5rem;display:inline-block">Read About →</a>
+                </article>
+                <article class="project card">
+                    <div style="font-weight:700">Contact</div>
+                    <div style="color:var(--muted);font-size:.95rem">Interested in working together? Reach out.</div>
+                    <a class="small-cta" href="contact.html" style="margin-top:.5rem;display:inline-block">Contact →</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Nwagha Divine — Built with care.
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
