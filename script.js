@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             const subject = encodeURIComponent(`Website inquiry from ${name || email}`);
             const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
             // Open user's mail client
-            window.location.href = `mailto:p3355240@gmail.com?subject=${subject}&body=${body}`;
+            window.location.href = `mailto:nwaghadivine0@gmail.com?subject=${subject}&body=${body}`;
         });
     }
 
